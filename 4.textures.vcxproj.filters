@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="shaders-using-object.cpp">
+    <None Include="texture.vert">
       <Filter>源文件</Filter>
-    </ClCompile>
+    </None>
+    <None Include="texture.frag">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="basic.frag">
+    <ClCompile Include="textures_combined.cpp">
       <Filter>源文件</Filter>
-    </None>
-    <None Include="basic.vert">
-      <Filter>源文件</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>
